@@ -1,0 +1,32 @@
+# 🌌 Eunhasu
+
+- # Eunhasu[ɯn.ɦa.su]는 한국어로 "은하수"를 의미하는 단어입니다.
+
+## 개요
+
+은하수는 [imnya.ng](https://imnya.ng)의 컴포넌트 라이브러리로, 저만의 디자인 철학을 담은 UI 컴포넌트들을 제공합니다.
+
+MIT 라이선스에 따라 자유롭게 사용, 수정, 배포할 수 있습니다.
+
+## 설치
+
+```bash
+bun add @imnyang/ui
+```
+
+## 사용법
+
+```tsx
+import { Button } from '@imnyang/ui';
+
+function App() {
+  return <Button>Hello World</Button>;
+}
+```
+
+## 문서
+문서는 [Storybook](https://storybook.js.org/)으로 확인할 수 있습니다.
+
+```bash
+bun run storybook
+```
